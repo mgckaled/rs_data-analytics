@@ -1,8 +1,10 @@
 {
   "[python]": {
     "editor.defaultFormatter": "ms-python.autopep8",
-    "editor.formatOnSave": true
+    "editor.formatOnSave": true,
+    "editor.tabSize": 4,
   },
+
   "files.exclude": {
     "**/*.pyc": { "when": "$(basename).py" },
     "**/__pycache__": true,

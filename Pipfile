@@ -3,6 +3,10 @@ url = "https://pypi.org/simple"
 verify_ssl = true
 name = "pypi"
 
+[scripts]
+lint = "pylint --rcfile=.pylintrc n1/ n2/ n3/ n4/"
+lint-report = "pylint --rcfile=.pylintrc --report=y n1/ n2/ n3/ n4/"
+
 [packages]
 pandas = "*"
 numpy = "*"
