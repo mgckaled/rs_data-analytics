@@ -4,6 +4,8 @@ verify_ssl = true
 name = "pypi"
 
 [scripts]
+format = "black ."
+format-check = "black . --check"
 lint = "pylint --rcfile=.pylintrc n1/ n2/ n3/ n4/"
 lint-report = "pylint --rcfile=.pylintrc --report=y n1/ n2/ n3/ n4/"
 
@@ -13,6 +15,7 @@ numpy = "*"
 
 [dev-packages]
 pylint = "*"
+black = "*"
 
 [requires]
 python_version = "3.12"
