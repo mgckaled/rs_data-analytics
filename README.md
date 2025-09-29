@@ -69,9 +69,13 @@ Com uma abordagem prática e contextualizada, este nível visa tornar o aluno ap
 
 ## Nível 3 - Fundamentos de Python para Dados
 
+> Acesso às [avaliações](./.github/docs/assessments/q3.md)
+
 ### Bloco A - Fundamentos de Python para Dados
 
 Nesse módulo, você aprenderá os principais fundamentos da linguagem Python — como variáveis, tipos de dados, operadores, estruturas de controle e manipulação de strings. Esses conceitos são essenciais, pois o Python será amplamente utilizado nos próximos módulos em aplicações práticas de análise de dados.
+
+> Acesso ao [Conteúdo das Aulas](./n3/m1/)
 
 ### Bloco B - Estrutura de Dados
 
